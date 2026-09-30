@@ -14,6 +14,9 @@ class Solution:
             res.append(arr.pop()[1])
         return res
 
+# SORTING SOLUTION
+# Time complexity is O(n log n) because counting and building the array take O(n), but sorting the frequency array takes O(n log n), which dominates. 
+# Space complexity is O(n) because the frequency map, frequency array, and result can all grow proportional to n.  
 
 
 
